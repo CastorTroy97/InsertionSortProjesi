@@ -1,0 +1,16 @@
+[22,27,16,2,18,6] dizisinin insertion sort algoritmasına göre aşamaları şu şekildedir:
+[2,27,16,22,18,6]
+[2,6,16,22,18,27]
+[2,6,16,18,22,27] 
+
+-İlk adımda n tane eleman için sıralama yaparken, her bir sonraki adımda ise n-1 eleman için sıralama yapacaktır. 
+Bu sebeple 1 eleman kalana kadar bu işlem sürecektir. Bu da bize 1'den n'e kadar olan sayıların toplamını verir BigO Notation için.
+Buradan n.(n-1)/2= n*2-n= n*2 sonucunu elde ederiz.
+
+-Aradığımız sayının sıralama tamamlandıktan sonra ortalarda bulunması sebebiyle 18 elemanı bize average case durumunu verecektir.
+
+[7,3,5,8,2,9,4,15,6] dizisinin insertion sort algoritmasına göre ilk dört adımı şu şekildedir:
+[2,3,5,8,7,9,4,15,6]
+[2,3,4,8,7,9,5,15,6]
+[2,3,4,5,7,9,8,15,6]
+[2,3,4,5,6,9,8,15,7]
